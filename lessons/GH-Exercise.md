@@ -13,3 +13,6 @@ The repository is composed of the following files/folders:
     - **WebApp-Lab.md**: Instructions for the first demo lab.
 - **Lab X**: Labs designed to practise the lessons explained in the GitHub School website.
 
+## Labs for previous lessons
+
+Click on the options below to launch the lab instructions for the previous lessons:
