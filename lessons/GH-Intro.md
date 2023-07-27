@@ -80,7 +80,7 @@ The previous link takes you to the main repository for the AZ-400 course labs. M
 - **.github** folder: used for GitHub specific configuration files, such as issue templates, workflows, etc...
 - **Allfiles** folder: contains the files used by some of the labs (for example, .NET code used by some lab)
 - **Instructions** folder: contains the lab instructions in Markdown format. **This is the folder we will focus on during this learning journey.**
-- Other files: files used for other purposes, such as the course outline or the GitHub Page the repositories.
+- Other files: files used for other purposes, such as the course outline or configuration files for the GitHub Page being built from this repository.
 
 As an collaborator you are mainly going to be proposing changes to the lab instructions or lab files, so you will be mainly working on the **Instructions** and **Allfiles** folders.
 
