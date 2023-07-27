@@ -4,9 +4,11 @@
 # GIT Branching
 ***
 
+<span class="oi oi-clock" style="color: orange;">  3 minutes</span> 
+
 ## Introduction
 
-<span class="oi oi-clock" style="color: orange;">  3 minutes</span>
+
 
 Before covering the **Pull Request** feature, it will be important to understand some GIT basics , such as **Branching**.
 

@@ -4,9 +4,11 @@
 # GIT Issues
 ***
 
+<span class="oi oi-clock" style="color: orange;">  2 minutes</span>
+
 ## Introduction
 
-<span class="oi oi-clock" style="color: orange;">  2 minutes</span>
+
 
 **GitHub Issues** is a feature provided by Github that is primarily used for tracking and managing tasks, bugs, and discussions related to a particular software project. It allows developers and project collaborators to report issues they encounter, suggest new features, or discuss existing ones.
 
