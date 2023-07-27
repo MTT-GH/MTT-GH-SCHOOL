@@ -88,7 +88,7 @@ The previous link takes you to the main repository for the AZ-400 course labs. M
 - **Instructions** folder: contains the lab instructions in Markdown format. **This is the folder we will focus on during this learning journey.**
 - Other files: files used for other purposes, such as the course outline or configuration files for the GitHub Page being built from this repository.
 
-As an collaborator you are mainly going to be proposing changes to the lab instructions or lab files, so you will be mainly working on the **Instructions** and **Allfiles** folders.
+As an collaborator you are mainly going to be proposing changes to the lab instructions (markdown files) or lab files (scripts,programs used by labs), so you will mainly propose changes to the **Instructions** and **Allfiles** folders.
 
 Many of these repositories build a **GitHub Page**, which is a static website hosted on GitHub. For example for the AZ-400 course labs, the GitHub Page is hosted here (mostly directed  by shortlinks like aka.ms/az400labs and similar): <a href="https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/"> AZ-400 GitHub Page </a>
 
