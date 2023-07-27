@@ -38,6 +38,19 @@ You can view, edit and create branches in GitHub from the **Code** tab of the re
 
 ![Create branch](https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/createbranch.png)
 
+
+[comment]: <> (this is the section for the Note: item; please do not make any changes here)
+***
+<div style="background: lightgreen; 
+            font-size: 14px; 
+            color: black;
+            padding: 5px; 
+            border: 1px solid lightgray; 
+            margin: 5px;">
+
+**Note** Branches can also be created from a local (clone) repository , and push them to GitHub once ready. This will be covered in the next lesson, but not used in the labs, as we are going to use an easy approach to create branches and work directly in GitHub (no local clone/repo needed).
+</div>
+
 When you are editing a file using the GitHub editor , you will see the chosen branch name on top of the file, that is the branch we commits are going to be pushed to:
 
 ![edit file](https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/editfile.png)
