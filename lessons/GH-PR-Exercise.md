@@ -1,7 +1,7 @@
 # GitHub Issues - Hands-On Exercise 
 ***
 
-<span class="oi oi-clock" style="color: orange;">  10 minutes</span>
+<span class="oi oi-clock" style="color: orange;">  60 minutes</span>
 
 ## MTT GH School Labs 
 For the following lesson labs, you are going to use the following repository as a base for your exercises: <a href="https://github.com/MTT-GH/MTT-GH-SCHOOL-LABS"> MTT-GH/MTT-GH-SCHOOL-LABS </a>
