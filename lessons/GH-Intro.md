@@ -80,7 +80,7 @@ Let´s take the AZ-400 course labs as an example : <a href="https://github.com/M
 
 The previous link takes you to the main repository for the AZ-400 course labs. Most repositories will have a similar structure:
 <br></br>
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/AZ400_repo.png" alt="Staging Area" style="width:100%;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/AZ400_repo.png" alt="Staging Area" style="width:75%;">
 <br></br>
 
 - **.github** folder: used for GitHub specific configuration files, such as issue templates, workflows, etc...
@@ -95,5 +95,5 @@ Many of these repositories build a **GitHub Page**, which is a static website ho
 Additionally, as you can see on the GitHub repository, collaborator are able to report Issues (for problems and feedback), or propose code changes using Pull Requests. We will cover these features in the next lessons.
 
 <br></br>
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/AZ400_issues.png" alt="Staging Area" style="width:100%;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/AZ400_issues.png" alt="Staging Area" style="width:75%;">
 <br></br>
