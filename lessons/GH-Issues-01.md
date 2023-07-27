@@ -36,7 +36,7 @@ GitHub Issues are created from the **Issues** tab in the repository page.
 Let's take a look at the details of a GitHub Issue, taking the following issue as an example:
 
 
-<img src="media/gh-issue-example.png" alt="Staging Area" style="width:100%; margin: 20px 0px 20px 0px;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/gh-issue-example.png" alt="Staging Area" style="width:100%; margin: 20px 0px 20px 0px;">
 
 - **Issue title** : The title of the issue should be concise and descriptive. It should clearly indicate the problem or feature request.
 - **Issue number** : Each issue is assigned a unique number (on this example #3). This number is used to reference the issue in other issues, pull requests (PRs), or commits. You can easily reference an issue by typing a hash (#) followed by the issue number.
