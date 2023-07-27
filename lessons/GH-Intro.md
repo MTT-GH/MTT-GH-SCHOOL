@@ -4,6 +4,10 @@
 # What is GitHub?
 ***
 
+<br></br>
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/github.png" alt="Staging Area" style="width:100%;">
+<br></br>
+
 <span class="oi oi-clock" style="color: orange;">  6 minutes</span>
 
 ## Introduction
@@ -19,10 +23,10 @@ GitHub is a web-based platform for version control and collaboration, primarily 
             border: 1px solid lightgray; 
             margin: 5px;">
 
-**Note:** GitHub is relying on Git for its Source Control management, but Git is not owned by GitHub. There are many tool that can be used to manage Git repositories, such as Azure DevOps, BitBucket, GitLab, etc...
+**Git is not GitHub!** GitHub is relying on Git for its Source Control management, but Git is not owned by GitHub. **Git is a version control tool, GitHub is a cloud-based platform that is built around Git**, providing some extra features mentioned below.  There are many tools that use Git to manage distributed repositories, such as Azure DevOps, BitBucket, GitLab, etc...
 </div>
 
-Key features of GitHub include:
+Key features of **GitHub** include:
 
 1. **Version Control:** GitHub uses the distributed version control system called Git. This system allows developers to track changes to their code over time, enabling them to revert to previous versions if needed and collaborate seamlessly with others.
 
