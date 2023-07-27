@@ -36,7 +36,9 @@ As an MTT , you will mostly use a simple feature branching strategy (trunk based
 
 You can view, edit and create branches in GitHub from the **Code** tab of the repository page, clicking on the default branch dropdown:
 
-![Create branch](https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/createbranch.png)
+<img  src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/createbranch.png"
+    alt="Branching"
+    style="width:75%; margin: 20px 0px 20px 0px;" />
 
 
 [comment]: <> (this is the section for the Note: item; please do not make any changes here)
@@ -53,5 +55,7 @@ You can view, edit and create branches in GitHub from the **Code** tab of the re
 
 When you are editing a file using the GitHub editor , you will see the chosen branch name on top of the file, that is the branch we commits are going to be pushed to:
 
-![edit file](https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/editfile.png)
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/editfile.png"
+    alt="Branching"
+    style="width:75%; margin: 20px 0px 20px 0px;" />
 

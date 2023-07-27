@@ -43,7 +43,7 @@ The `<remote_url>` is the URL of the repository you want to clone. For example:
 
 This command creates a local copy of the remote repository in the current directory. The remote URL can be obtained from the repository page on GitHub. You can also use the other options given by the GitHub UI from the **Code** tab of the repository page:
 
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/clone.png" alt="Clone" style="width:75%; margin: 20px 0px 20px 0px;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/clone.png" alt="Clone" style="width:50%; margin: 20px 0px 20px 0px;">
 
 
 ### Cloning Process
@@ -70,9 +70,9 @@ When you want to experiment new changes locally and push them to the remote repo
 1. Committing the changes to the local repository, either by using `git commit` or `git commit -a` (to commit all changes), or the UI of your Git client. You could also stage the changes before committing them, by using `git add` (shown in Git Basics lesson).
 1. Pushing the changes to the remote repository, by using `git push` or the UI of your Git client.
 
-The following video shows a brief/compact intro to #Git & #GitHub made easy with #VisualStudioCode:
+The following video shows a brief/compact intro to Git & GitHub made easy with Visual Studio Code:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=i_23KUAEtUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Git Forking
 
@@ -106,7 +106,7 @@ Forking a repository can usually be done via the user interface of code hosting 
 
 During the proposed labs, you will be forking the <a href="https://github.com/MTT-GH/MTT-GH-SCHOOL-LABS"> MTT-GH/MTT-GH-SCHOOL-LABS </a> repository to your GitHub user account to learn how to collaborate on content development.
 
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/upstreamandforkv2.png" alt="Fork" style="width:100%; margin: 20px 0px 20px 0px;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/upstreamandforkv2.png" alt="Fork" style="width:75%; margin: 20px 0px 20px 0px;">
 
 [comment]: <> (this is the section for the Note: item; please do not make any changes here)
 ***
