@@ -5,7 +5,9 @@
 ***
 
 <br></br>
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/github.png" alt="Staging Area" style="width:100%;">
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/github.png" alt="Staging Area" style="width:50%; ">
+</div>
 <br></br>
 
 <span class="oi oi-clock" style="color: orange;">  6 minutes</span>
