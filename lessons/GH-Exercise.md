@@ -11,8 +11,5 @@ The repository is composed of the following files/folders:
 - **Instructions** folder: Contains the instructions for the **demo lab files you will modify** .
     - **media** folder: Contains the images used in the instructions.
     - **WebApp-Lab.md**: Instructions for the first demo lab.
-- **LabX**: Labs designed to practise the lessons explained in the GitHub School website.
+- **Lab X**: Labs designed to practise the lessons explained in the GitHub School website.
 
-## GitHub Issues Exercise
-1. Make sure you meet the prerequisites for the labs  <a href="https://github.com/MTT-GH/MTT-GH-SCHOOL-LABS/blob/main/README.md#pre-requisites"> PREREQUISITES </a>
-2. Follow the lab instructions at <a href="https://github.com/MTT-GH/MTT-GH-SCHOOL-LABS/blob/main/Lab1-Create-GH-Issue.md"> Lab1-Create-GH-Issue </a>
