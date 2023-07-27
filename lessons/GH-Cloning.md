@@ -26,7 +26,6 @@ Understanding the differences between local and origin repositories is crucial f
 
 ## Git Cloning
 
-### What is Cloning?
 
 Cloning is the process of creating an exact copy of a remote repository on your local machine. This action allows you to work with the repository locally, make changes, and contribute to the project. By cloning a repository, you create a local Git repository with a complete history of all the files and commits present in the remote repository.
 
@@ -75,8 +74,6 @@ The following video shows a brief/compact intro to Git & GitHub made easy with V
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Git Forking
-
-### What is Forking?
 
 Forking is the process of creating a copy of a remote repository to your user account on a code hosting platform (e.g., GitHub or Azure DevOps). Forking is often used when you **want to propose changes to a project but do not have direct write access to the original repository**. 
 
