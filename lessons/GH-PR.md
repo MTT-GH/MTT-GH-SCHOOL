@@ -47,7 +47,7 @@ Once a Pull Request is created, other developers can review the proposed changes
 
 ### Pull Request Merge
 
-Once the proposed changes are reviewed approved, the Pull Request can be merged by the maintainer. This will apply the changes to the target branch of the Pull Request. 
+Once the proposed changes are reviewed and approved, the Pull Request can be merged by the maintainer. This will apply the changes to the target branch of the Pull Request. 
 
 <img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/PR-merged.png" alt="Approve Pull Request changes" style="width:75%; margin: 20px 0px 20px 0px;"> 
 
