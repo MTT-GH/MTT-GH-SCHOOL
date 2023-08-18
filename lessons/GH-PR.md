@@ -6,72 +6,50 @@
 
 <span class="oi oi-clock" style="color: orange;">  5 minutes</span> 
 
-[comment]: <> (this is the section for the Note: item; please do not make any changes here)
-***
-<div style="background: lightgreen; 
-            font-size: 14px; 
-            color: black;
-            padding: 5px; 
-            border: 1px solid lightgray; 
-            margin: 5px;">
+
 
 ## Introduction
 
-A Git Pull Request(PR) is a feature commonly used in collaborative software development workflows. It's a way to propose and manage changes to a codebase hosted in a GIT repository. During the following lesson you will focus on learning about Pull Request workflows for Git repositories hosted in GitHub
+A Git Pull Request (PR) is a feature commonly used in collaborative software development workflows. It's a way to propose and manage changes to a codebase hosted in a GIT repository. During the following lesson you will focus on learning about Pull Request workflows for Git repositories hosted in GitHub
 
-### How to create a Pull Request
+
 
 Pull Requests can be used to collaborate in the following scenarios:
 
-- Propose changes between branches in the same repository. Developers will use the PRs to review changes proposed in a branch (for example, a feature branch) before merging them in a "protected" main branch. 
-- Propose changes from a branch in a fork to the source repository. Used frequently in Open Source projects. A collaborator creates a fork (independent copy of repo to experiment), proposes some changes in a forked repo branch and once tested creates a Pull Request targeting the main branch of the source repo.
+- Propose changes **between branches in the same repository**. Developers will use the PRs to review changes proposed in a branch (for example, a feature branch) before merging them in a "protected" main branch. 
+- Propose changes **from a branch in a fork to the source repository branch**. Used frequently in Open Source or public repositories. A collaborator creates a fork (independent copy of repo to experiment), proposes some changes in a forked repo branch and once tested creates a Pull Request targeting the main branch of the source repo.
 
-  
-```git clone <remote_url>```
+### How to create a Pull Request
+
+Focused on the Open Source collaboration scenario (as this is the one used in the labs and also used when collaborating with official lab courseware), the following steps are required to create a Pull Request:
+
+-**Forking**: When working with a shared code repository, you may need to fork (create a personal copy of) the repository to your own account. This allows you to make changes without directly affecting the original codebase.
+
+- **Creating a Branch**: After forking the repository, you create a new branch in your fork to work on a specific feature, bug fix, or improvement. This helps keep your changes isolated from the main codebase until you're ready to integrate them.
+
+- **Making Changes**: You make your desired changes within the new branch. This could involve adding, modifying, or deleting code. It can be done from the GitHub UI or from a local clone of the repository (GitHub UI used in the labs).
+
+- **Committing Changes**: As you work, you commit your changes to the branch. Each commit is a snapshot of the code at a particular point in time and includes a descriptive message explaining the purpose of the changes. **Pushing** will be needed if changes were applied locally (local clone of your forked repo).
+
+    <img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/upstreamandforkv2.png" alt="Fork" style="width:75%; margin: 20px 0px 20px 0px;">        
+
+- **Opening a Pull Request**: When you're ready to share your changes, you open a Pull Request. This allows you to propose your changes to the original repository. You can also use the Pull Request to ask for feedback or help from other developers. GitHub usually detects branches that got updates and will show a banner to create a Pull Request. You can also create a Pull Request from the **Pull Requests** tab of your forked repository. You should provide a descriptive title and message for the Pull Request, you can even reference issues or other Pull Requests in the message.
+
+    <img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media//update-image-branch.png" alt="Create Pull Request" style="width:75%; margin: 20px 0px 20px 0px;">  
+
+### Pull Request Review
 
 
-The `<remote_url>` is the URL of the repository you want to clone. For example:
+Once a Pull Request is created, other developers can review the proposed changes and discuss them. You can also use the Pull Request to ask for feedback or help from other developers.
 
-```git clone https://github.com/exampleuser/example-repo.git```
+- **Reviewing Changes**: Developers can review the proposed changes in the Pull Request, have a conversation using the comments timeline, suggest and approve changes. Most of these actions will be shown in the proposed labs. You could even automate building and testing of the proposed changes using GitHub Actions.
+    <img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/PR-approve.png" alt="Approve Pull Request changes" style="width:75%; margin: 20px 0px 20px 0px;"> 
 
-This command creates a local copy of the remote repository in the current directory. The remote URL can be obtained from the repository page on GitHub. You can also use the other options given by the GitHub UI from the **Code** tab of the repository page:
+### Pull Request Merge
 
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL/main/lessons/media/clone.png" alt="Clone" style="width:50%; margin: 20px 0px 20px 0px;">
+Once the proposed changes are reviewed approved, the Pull Request can be merged by the maintainer. This will apply the changes to the target branch of the Pull Request. 
 
-
-### Cloning Process
-
-When you clone a repository, Git will perform the following steps:
-
-1. **Create a New Directory**: Git creates a new directory with the same name as the repository.
-
-2. **Initialize a Git Repository**: Inside the new directory, Git initializes a new repository.
-
-3. **Fetch Content**: Git fetches all the files and commit history from the remote repository.
-
-4. **Create Remote Tracking Branches**: Git sets up remote tracking branches, such as `origin/main`, to keep track of the remote repository's branches. These branches are used to synchronize your local repository branches with the remote repository one, for example `main` to `origin/main`.
-
-### Collaborating with cloned repositories
-
-When using local(cloned) repositories for collaboration, you will need to synchronize your local repository with the remote repository. This is done by using the following Git commands (others can be used):
-
-- `git pull`: This command fetches the latest changes from the remote repository and merges them into the current branch. It is equivalent to running `git fetch` followed by `git merge`.
-
-When you want to experiment new changes locally and push them to the remote repository, you will need to use the following Git commands (others can be used):
-
-1. Making the desired changes to the local repository.
-1. Committing the changes to the local repository, either by using `git commit` or `git commit -a` (to commit all changes), or the UI of your Git client. You could also stage the changes before committing them, by using `git add` (shown in Git Basics lesson).
-1. Pushing the changes to the remote repository, by using `git push` or the UI of your Git client.
-
-The following video shows a brief/compact intro to Git & GitHub made easy with Visual Studio Code:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Git Forking
-
-Forking is the process of creating a copy of a remote repository to your user account on a code hosting platform (e.g., GitHub or Azure DevOps). Forking is often used when you **want to propose changes to a project but do not have direct write access to the original repository**. 
-
-It enables you to **freely experiment** with modifications without affecting the original project, and **only sharing your updates when/if you are ready**. It gives you the freedom to work on your own copy of a project without affecting the original repository.
+<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/PR-merged.png" alt="Approve Pull Request changes" style="width:75%; margin: 20px 0px 20px 0px;"> 
 
 [comment]: <> (this is the section for the Note: item; please do not make any changes here)
 ***
@@ -82,32 +60,6 @@ It enables you to **freely experiment** with modifications without affecting the
             border: 1px solid lightgray; 
             margin: 5px;">
 
-**Forking** is the way people collaborate in Open Source (OSS) projects, as it allows anyone to contribute to a project without the need to be a member of the organization that owns the repository!
-
-</div>
-
-
-### How to Fork a Repository
-
-Forking a repository can usually be done via the user interface of code hosting platforms. For example, on GitHub:
-
-1. Navigate to the repository you want to fork.
-
-2. Click the "Fork" button in the top-right corner of the repository page.
-
-During the proposed labs, you will be forking the <a href="https://github.com/MTT-GH/MTT-GH-SCHOOL-LABS"> MTT-GH/MTT-GH-SCHOOL-LABS </a> repository to your GitHub user account to learn how to collaborate on content development.
-
-<img src="https://raw.githubusercontent.com/MTT-GH/MTT-GH-SCHOOL-LABS/main/media/upstreamandforkv2.png" alt="Fork" style="width:75%; margin: 20px 0px 20px 0px;">
-
-[comment]: <> (this is the section for the Note: item; please do not make any changes here)
-***
-<div style="background: lightgreen; 
-            font-size: 14px; 
-            color: black;
-            padding: 5px; 
-            border: 1px solid lightgray; 
-            margin: 5px;">
-
-**Note:** As mentioned before, labs will NOT use local/cloned repositories, as it makes the process easier, and it is enough for most updates proposed for existing content.
+**Note:** As mentioned before, labs will NOT use local/cloned repositories, as it makes the process easier, and it is enough for most updates proposed for  content used by MTTs.
 
 </div>

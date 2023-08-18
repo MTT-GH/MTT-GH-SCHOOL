@@ -114,6 +114,6 @@ During the proposed labs, you will be forking the <a href="https://github.com/MT
             border: 1px solid lightgray; 
             margin: 5px;">
 
-**Note:** As mentioned before, labs will NOT use local/cloned repositories, as it makes the process easier, and it is enough for most updates proposed for existing content.
+**Note:** As mentioned before, labs will NOT use local/cloned repositories, as it makes the process easier, and it is enough for most updates proposed for  content used by MTTs.
 
 </div>
